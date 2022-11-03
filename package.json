@@ -1,15 +1,36 @@
 {
-  "name": "40-grupe-portfolio",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "Rimantas (https://github.com/belauzas)",
-  "license": "MIT",
-  "devDependencies": {
-    "dead-server": "^1.0.8"
-  }
+    "name": "40-grupe-portfolio",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "authors": [
+        {
+            "name": "Vardukas",
+            "url": "https://github.com/Audriusvilnius"
+        },
+        {
+            "name": "Laura",
+            "url": "https://github.com/janis0316"
+        },
+        {
+            "name": "Mindaugas",
+            "url": "https://github.com/mendogas"
+        },
+        {
+            "name": "Rokas",
+            "url": "https://github.com/rokDMK"
+        },
+        {
+            "name": "Tomas",
+            "url": "https://github.com/TVPerformance"
+        }
+    ],
+    "license": "MIT",
+    "devDependencies": {
+        "dead-server": "^1.0.8"
+    }
 }
