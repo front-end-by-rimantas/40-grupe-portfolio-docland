@@ -1,5 +1,37 @@
-.abc {
-    background-color: blue;
-    height: 80px;
-    width: 1000px;
+.head {
+    display: flex;
+}
+
+.logo {
+    padding: 30px;
+}
+.navBar {
+    background-color: yellow;
+    width: 70%;
+    text-align: right;
+    font-size: 22px;
+    font-weight: 500;
+    margin: 27px 0;
+}
+
+.navItem {
+    padding: 0 10px;
+}
+.navLogin {
+    text-decoration: underline;
+    font-size: 17px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 0.6em 1.3em;
+    background-color: var(--dark-green-color);
+    color: #ffffff;
+    font-size: 18px;
+    text-decoration: none;
+    text-transform: capitalize;
+    border-radius: 5px;
+    border: none;
+    font-weight: 500;
+    cursor: pointer;
 }
