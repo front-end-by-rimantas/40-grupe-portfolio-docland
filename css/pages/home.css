@@ -19,6 +19,14 @@
 /* Clock-end */
 
 /* Course-start */
+.syllabus{
+    background-color: white;
+    border-radius: 15px;
+}
+.week_syllabus{
+    text-align: center;
+
+}
 /* Course-end */
 
 /* Syllabus-start */
