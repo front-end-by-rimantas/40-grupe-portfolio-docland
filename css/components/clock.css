@@ -1,0 +1,19 @@
+.clock{
+    display:flex;   
+    flex-wrap: wrap;
+    color: white;
+    gap: 30px 30px;
+    text-transform: uppercase;
+    justify-content: center;
+    font-size: 50px;
+    font-weight: bold;
+    
+}
+.clock_label{
+    font-size: 10px;
+}
+.clock > .time{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}

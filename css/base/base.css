@@ -1,0 +1,45 @@
+:root {
+    --yellow-color: #f2c243;
+    --dark-green-color: #7fd6c2;
+    --light-green-color: #d4fef5;
+    --background-color: #f6f8f5;
+    --menu-grey-color: #5f6b58;
+
+    --titles-color: #292929;
+    --under-titles-color: #707070;
+    --description-color: #5f6b58;
+
+    /* Courses colors: */
+    --wireframe-color: #b789f8;
+    --prototype-color: #f7cd90;
+    --sketch-color: #8fb5f9;
+    --design-thinking-color: #949df8;
+
+    /* BENEFITS COLORS: */
+    /* Flexible Deadline: */
+    --light-purple-color: #e8e6fd;
+    --dark-blue-color: #1a01f5;
+    /* Project reviews: */
+    --light-yellow-color: #fdf6de;
+    --dark-yellow-color: #f3c54c;
+    /* Mentoring: */
+    --light-blue-color: #dceef8;
+    --darker-blue-color: #50b1f9;
+    /* Online: */
+    --light-green-background-color: #ebfefa;
+    /* Main color is: --dark-green-color */
+
+    --reviewers-name-color: #5d52d4;
+}
+body,
+body * {
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',
+        sans-serif;
+}
