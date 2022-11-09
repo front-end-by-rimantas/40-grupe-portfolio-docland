@@ -22,6 +22,8 @@
 
 /* Course-start */
 .container > .syllabus{
+    padding: calc(5% - 1em);
+  
     font-family: 'Ubuntu', sans-serif;
     font-weight: lighter;
     background-color: white;
@@ -30,6 +32,8 @@
     line-height: 190%;
     box-shadow: 5px 10px 20px 3px rgb(210, 211, 210);
 }
+
+
 .container > h3{
     font-family: 'Hind', sans-serif;
     font-size: 30px;
@@ -40,10 +44,12 @@
     font-family: 'Ubuntu', sans-serif;
     text-align: center;
     line-height: 190%;
+    color:  #f2c243;
+    padding-block: 40px 0px;
 
 }
 .playlist{
-   display: inline-block;
+    display: inline-block;
     font-family: 'Ubuntu', sans-serif;
     font-size: 18px;
     display: inline;
