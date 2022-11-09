@@ -10,6 +10,23 @@
 /* HEADER-end */
 
 /* HERO-start */
+
+.video-image {
+    position: relative;
+}
+.play-btn {
+    width: 60px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    cursor: pointer;
+    color: red;
+}
+.aid-link {
+    color: var(--titles-color);
+    text-decoration: underline;
+}
+
 /* HERO-end */
 
 /* INFO-start */
