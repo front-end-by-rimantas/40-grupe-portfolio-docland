@@ -10,6 +10,7 @@
 /* HEADER-end */
 
 /* HERO-start */
+
 .stars {
     color: var(--yellow-color);
 }
@@ -37,6 +38,20 @@
 }
 .video-image {
     position: relative;
+}
+.left-video-bg-img {
+    position: absolute;
+    left: -80px;
+    top: -60px;
+}
+.right-video-bg-img {
+    position: absolute;
+    right: 0px;
+    bottom: -70px;
+}
+.video-pic {
+    position: relative;
+    max-width: 100%;
 }
 .play-btn {
     width: 60px;
