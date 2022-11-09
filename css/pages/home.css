@@ -70,6 +70,16 @@
     color: var(--titles-color);
 }
 
+@media (max-width: 991.9px) {
+    .left-video-bg-img {
+        display: none;
+    }
+}
+@media (max-width: 991.9px) {
+    .right-video-bg-img {
+        display: none;
+    }
+}
 /* HERO-end */
 
 /* INFO-start */
