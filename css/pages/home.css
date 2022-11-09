@@ -10,7 +10,31 @@
 /* HEADER-end */
 
 /* HERO-start */
-
+.stars {
+    color: var(--yellow-color);
+}
+.reviewers-number {
+    color: var(--under-titles-color);
+    font-weight: 400;
+}
+.title {
+    font-size: 60px;
+    font-weight: 600;
+    font-family: 'Hind', sans-serif;
+    color: var(--titles-color);
+}
+.under-title {
+    font-weight: 400px;
+    color: var(--under-titles-color);
+}
+.don {
+    font-weight: 600;
+    color: var(--dark-green-color);
+}
+.description {
+    font-weight: 300;
+    color: var(--description-color);
+}
 .video-image {
     position: relative;
 }
@@ -25,6 +49,10 @@
 .aid-link {
     color: var(--titles-color);
     text-decoration: underline;
+    font-size: 18px;
+    font-weight: 600px;
+    font-family: 'Hind', sans-serif;
+    color: var(--titles-color);
 }
 
 /* HERO-end */
