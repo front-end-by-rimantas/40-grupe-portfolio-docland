@@ -28,6 +28,7 @@
     border-radius: 15px;
     font-size: 20px;
     line-height: 190%;
+    box-shadow: 5px 10px 20px 3px rgb(210, 211, 210);
 }
 .container > h3{
     font-family: 'Hind', sans-serif;
@@ -48,6 +49,11 @@
     display: inline;
     line-height: 20px;
     padding: 18px;
+}
+.playotion{
+    padding-left: 40px;
+    display: flex;
+    justify-content:center;
 }
 
 
