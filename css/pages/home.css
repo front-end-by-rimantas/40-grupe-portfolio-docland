@@ -51,7 +51,6 @@
     font-family: 'Ubuntu', sans-serif;
     text-align: center;
     line-height: 190%;
-    color:  #f2c243;
     padding-block: 40px 0px;
 
 }
@@ -70,10 +69,16 @@
 }
 .play{
     justify-content:center;
-    color: #42ef54;
 }
-.sylabusSlidLine{
-    border-bottom: solid;
+.preview {
+    font-weight: 500;
+}
+a:link{
+    text-decoration: none;
+}
+hr.new5{
+    border: 1px solid;
+    padding-left: 200px;
     color: rgba(119, 119, 119, 0.171);
 }
 
