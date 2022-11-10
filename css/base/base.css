@@ -40,6 +40,17 @@ body * {
 }
 
 body {
+    background-color: var(--background-color);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',
         sans-serif;
+        
+}
+.week_syllabus{
+    color: var(--yellow-color);
+}
+.play{
+    color: var(--dark-green-color);
+}
+.preview{
+    color: var(--dark-green-color);
 }
