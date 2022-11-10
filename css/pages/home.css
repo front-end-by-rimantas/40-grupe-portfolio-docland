@@ -103,6 +103,18 @@
 /* Clock-end */
 
 /* Course-start */
+.syllCours{
+    font-size: 40px;
+    
+}
+.btn-syllabsDownload{
+    float: right;
+   margin-top: 15px
+
+}
+.syllabus{
+    padding: 230px;
+}
 .container > .syllabus{
     padding: calc(5% - 1em);
     font-family: 'Ubuntu', sans-serif;
