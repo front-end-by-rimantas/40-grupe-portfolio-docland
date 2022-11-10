@@ -4,53 +4,6 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-<<<<<<< HEAD
-    "dev": "dead-server --port=4006 --host=localhost",
-    "test": "jest --passWithNoTests",
-    "test:all": "jest --watchAll --passWithNoTests --coverage",
-    "test:coverage": "jest --coverage"
-    },
-    "keywords": [],
-    "authors": [
-    {
-    "name": "Audrius",
-    "url": "https://github.com/Audriusvilnius"
-    },
-    {
-    "name": "Laura",
-    "url": "https://github.com/janis0316"
-    },
-    {
-    "name": "Mindaugas",
-    "url": "https://github.com/mendogas"
-    },
-    {
-    "name": "Rokas",
-    "url": "https://github.com/rokDMK"
-    },
-    {
-    "name": "Tomas",
-    "url": "https://github.com/TVPerformance"
-    }
-    ],
-    "license": "MIT",
-    "devDependencies": {
-    "@babel/plugin-transform-modules-commonjs": "^7.15.0",
-    "@babel/preset-env": "^7.15.0",
-    "babel-jest": "^26.6.3",
-    "dead-server": "^1.0.8",
-    "eslint": "^7.32.0",
-    "eslint-config-node": "^4.1.0",
-    "eslint-plugin-import": "^2.24.1",
-    "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-prettier": "^3.4.1",
-    "jest": "^26.6.3",
-    "prettier": "2.2.1"
-    },
-    "jest": {
-    "transform": {
-    "^.+\\.jsx?$": "babel-jest"
-=======
         "dev": "dead-server --port=4006 --host=localhost",
         "test": "jest --passWithNoTests",
         "test:all": "jest --watchAll --passWithNoTests --coverage",
@@ -97,7 +50,5 @@
         "transform": {
             "^.+\\.jsx?$": "babel-jest"
         }
->>>>>>> develop
     }
-    }
-    }
+}
