@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+@import url('https://fonts.googleapis.com/css?family=Hind');
 :root {
     --yellow-color: #f2c243;
     --dark-green-color: #7fd6c2;
@@ -37,13 +39,19 @@ body * {
     padding: 0;
     vertical-align: top;
     box-sizing: border-box;
+    font-size: 20px;
+    background-color: var(--background-color);
+    font-family: 'Ubuntu', sans-serif;
+    line-height: 1.78;
 }
 
 body {
     background-color: var(--background-color);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',
         sans-serif;
-        
+
+}
+     
 }
 .week_syllabus{
     color: var(--yellow-color);

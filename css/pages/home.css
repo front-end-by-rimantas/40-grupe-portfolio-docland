@@ -12,6 +12,88 @@
 /* HEADER-end */
 
 /* HERO-start */
+.hero {
+    padding-top: 230px;
+}
+.left-hero {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 5px;
+}
+.stars {
+    color: var(--yellow-color);
+}
+.reviewers-number {
+    color: var(--under-titles-color);
+    font-weight: 400;
+    padding-left: 5px;
+}
+.title {
+    font-size: 60px;
+    font-weight: 600;
+    font-family: 'Hind', sans-serif;
+    color: var(--titles-color);
+}
+.under-title {
+    font-weight: 400px;
+    color: var(--under-titles-color);
+}
+.don {
+    font-weight: 600;
+    color: var(--dark-green-color);
+}
+.description {
+    font-weight: 300;
+    color: var(--description-color);
+}
+.video-image {
+    position: relative;
+}
+.left-video-bg-img {
+    position: absolute;
+    left: -80px;
+    top: -60px;
+}
+.right-video-bg-img {
+    position: absolute;
+    right: 0px;
+    bottom: -70px;
+}
+.video-pic {
+    position: relative;
+    max-width: 100%;
+    vertical-align: middle;
+    background-color: transparent;
+}
+.play-btn {
+    width: 60px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    cursor: pointer;
+    color: red;
+}
+.financial-aid-link {
+    color: var(--titles-color);
+    text-decoration: underline;
+    font-size: 18px;
+    font-weight: 800px;
+    font-family: 'Hind', sans-serif;
+    color: var(--titles-color);
+    padding-left: 35px;
+}
+
+@media (max-width: 991.9px) {
+    .left-video-bg-img {
+        display: none;
+    }
+}
+@media (max-width: 991.9px) {
+    .right-video-bg-img {
+        display: none;
+    }
+}
 /* HERO-end */
 
 /* INFO-start */
