@@ -49,16 +49,14 @@ body {
     background-color: var(--background-color);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',
         sans-serif;
+}
 
-}
-     
-}
-.week_syllabus{
+.week_syllabus {
     color: var(--yellow-color);
 }
-.play{
+.play {
     color: var(--dark-green-color);
 }
-.preview{
+.preview {
     color: var(--dark-green-color);
 }
