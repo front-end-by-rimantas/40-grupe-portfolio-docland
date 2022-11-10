@@ -10,6 +10,9 @@
 /* HEADER-end */
 
 /* HERO-start */
+.hero {
+    padding-top: 230px;
+}
 .left-hero {
     display: flex;
     justify-content: left;
@@ -58,6 +61,8 @@
 .video-pic {
     position: relative;
     max-width: 100%;
+    vertical-align: middle;
+    background-color: transparent;
 }
 .play-btn {
     width: 60px;
