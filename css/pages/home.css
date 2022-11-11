@@ -20,7 +20,7 @@
     justify-content: left;
     align-items: center;
     gap: 5px;
-}
+}fclo
 .stars {
     color: var(--yellow-color);
 }
@@ -103,6 +103,9 @@
 /* Clock-end */
 
 /* Course-start */
+.date{
+    text-align: center;
+}
 .container > .syllabus {
     padding: calc(5% - 1em);
     font-family: 'Ubuntu', sans-serif;
@@ -136,14 +139,15 @@
     padding-block: 40px 0px;
 }
 .playlist {
-    display: inline-block;
+    display: flex;
     font-family: 'Ubuntu', sans-serif;
     font-size: 18px;
-    display: inline;
+
     line-height: 20px;
-    padding: 18px;
+  
 }
-.playotion {
+.playoption {
+    display: inline-block;
     padding-left: 40px;
     display: flex;
     justify-content: center;

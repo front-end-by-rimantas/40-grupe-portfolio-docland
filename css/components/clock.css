@@ -1,18 +1,27 @@
-.clock{
-    display:flex;   
+@import '../base/base.css';
+@import '../base/layout.css';
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&display=swap');
+
+.clock {
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
     flex-wrap: wrap;
-    color: white;
+    color: black;
     gap: 30px 30px;
     text-transform: uppercase;
     justify-content: center;
-    font-size: 50px;
+    font-size: 60px;
     font-weight: bold;
-    
+
 }
-.clock_label{
-    font-size: 10px;
+
+.clock_label {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
 }
-.clock > .time{
+
+.clock>.time {
     display: flex;
     flex-direction: column;
     width: 100%;
