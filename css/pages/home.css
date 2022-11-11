@@ -36,7 +36,8 @@
 }
 .title {
     font-size: 60px;
-    line-height: 60px;
+    line-height: 90px;
+    padding-top: 0px;
     font-weight: 600;
     font-family: 'Hind', sans-serif;
     color: var(--titles-color);
