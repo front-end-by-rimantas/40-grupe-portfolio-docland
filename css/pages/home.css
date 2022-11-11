@@ -14,6 +14,11 @@
 /* HERO-start */
 .hero {
     padding-top: 230px;
+    width: 100%;
+}
+.hero > .row {
+    display: flex;
+    align-items: center;
 }
 .left-hero {
     display: flex;
@@ -31,12 +36,15 @@
 }
 .title {
     font-size: 60px;
+    line-height: 90px;
+    padding-top: 0px;
     font-weight: 600;
     font-family: 'Hind', sans-serif;
     color: var(--titles-color);
 }
 .under-title {
     font-weight: 400px;
+    margin-bottom: 10px;
     color: var(--under-titles-color);
 }
 .don {
@@ -46,6 +54,7 @@
 .description {
     font-weight: 300;
     color: var(--description-color);
+    margin-bottom: 35px;
 }
 .video-image {
     position: relative;
@@ -57,7 +66,7 @@
 }
 .right-video-bg-img {
     position: absolute;
-    right: 0px;
+    right: -70px;
     bottom: -70px;
 }
 .video-pic {
@@ -74,13 +83,12 @@
     cursor: pointer;
     color: red;
 }
-.financial-aid-link {
+.hero > .row > .col-12 > .left-hero > .financial-aid-link {
     color: var(--titles-color);
-    text-decoration: underline;
     font-size: 18px;
     font-weight: 600px;
     font-family: 'Hind', sans-serif;
-    color: var(--titles-color);
+    text-decoration: underline;
     padding-left: 35px;
 }
 
