@@ -13,7 +13,8 @@
 
 /* HERO-start */
 .hero {
-    padding-top: 230px;
+    padding-top: 240px;
+    width: 100%;
 }
 .left-hero {
     display: flex;
@@ -37,6 +38,7 @@
 }
 .under-title {
     font-weight: 400px;
+
     color: var(--under-titles-color);
 }
 .don {
