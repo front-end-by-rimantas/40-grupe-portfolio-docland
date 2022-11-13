@@ -5,6 +5,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&display=swap');
 /* 3rd-party */
 /* components */
+@import '../components/socials.css';
 
 /* CUSTOM STYLE GOES BELOW THIS COMMENT LINE */
 
@@ -195,4 +196,57 @@ hr.new5 {
 /* Instructor-end */
 
 /* FOOTER-start */
+footer {
+    display: flex;
+    flex-direction: column;
+}
+h3 {
+    color: var(--titles-color);
+    font-family: 'Hind', sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 26px;
+}
+.footer-description {
+    color: var(--under-titles-color);
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 28px;
+}
+footer > .row > .col-12 > a {
+    color: var(--under-titles-color);
+    font-size: 16px;
+    line-height: 28px;
+    text-decoration: none;
+}
+.newsletter-description {
+    color: var(--under-titles-color);
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400;
+}
+.newsletter-form {
+    border: none;
+    border-radius: 50px;
+    font-size: 16px;
+    height: 60px;
+    line-height: 1em;
+    padding: 1.3em;
+}
+::placeholder {
+    color: #ffffff;
+}
+.newsletter-email {
+    background-color: var(--dark-green-color);
+    cursor: text;
+    width: 100%;
+}
+.subscribe {
+    background-color: var(--yellow-color);
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-block;
+    position: absolute;
+    right: 0;
+}
 /* FOOTER-end */
