@@ -196,9 +196,8 @@ hr.new5 {
 /* Instructor-end */
 
 /* FOOTER-start */
-footer {
-    display: flex;
-    flex-direction: column;
+footer > .row > .col-12 {
+    height: 280px;
 }
 h3 {
     color: var(--titles-color);
@@ -206,12 +205,14 @@ h3 {
     font-size: 26px;
     font-weight: 700;
     line-height: 26px;
+    margin-bottom: 25px;
 }
 .footer-description {
     color: var(--under-titles-color);
     cursor: pointer;
     font-size: 16px;
     line-height: 28px;
+    margin-top: 25px;
 }
 footer > .row > .col-12 > a {
     color: var(--under-titles-color);
