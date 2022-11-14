@@ -232,13 +232,19 @@ footer > .row > .col-12 > a {
 .newsletter-form {
     border: none;
     border-radius: 50px;
-    font-size: 16px;
+    font-size: 18px;
     height: 60px;
     line-height: 1em;
     padding: 1.3em;
 }
 ::placeholder {
     color: #ffffff;
+    font-weight: 300;
+}
+input[type='email'] {
+    color: #ffffff;
+    outline: 0;
+    font-weight: 300;
 }
 .newsletter-email {
     background-color: var(--dark-green-color);
