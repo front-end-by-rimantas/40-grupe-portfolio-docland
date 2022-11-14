@@ -261,4 +261,7 @@ input[type='email'] {
     display: inline-block;
     position: absolute;
 }
+.subscribe:hover {
+    color: var(--titles-color);
+}
 /* FOOTER-end */
