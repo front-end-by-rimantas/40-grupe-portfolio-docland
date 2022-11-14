@@ -221,6 +221,10 @@ footer > .row > .col-12 > a {
     line-height: 28px;
     text-decoration: none;
     font-weight: 300;
+    transition: 0.3s;
+}
+footer > .row > .col-12 > a:hover {
+    color: var(--dark-green-color);
 }
 .newsletter-description {
     color: var(--under-titles-color);
