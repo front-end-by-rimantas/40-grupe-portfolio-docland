@@ -117,6 +117,13 @@
     padding: 230px;
 
 }
+.play-to-top {
+    float: right;
+    font-size: 20px;
+    text-decoration: none;
+    width: 70px;
+    height: 70px;
+}
 .container > .syllabus{
     padding: calc(5% - 1em);
     font-family: 'Ubuntu', sans-serif;
@@ -126,6 +133,8 @@
     font-size: 20px;
     line-height: 190%;
     box-shadow: 0px 17px 40px 0px  rgb(210, 211, 210);
+    max-width: calc(90% - 1em);
+    
 }
 .sylabusContent > h3{
     padding-bottom: 20px;
@@ -133,6 +142,7 @@
 .syllabcont{
     font-size: 30px;
     font-weight: 500;
+    max-width: 900px;
 }
 .syllabstime > span{
     display: inline-block;
@@ -177,6 +187,7 @@
     font-weight: 500;
     text-align: center;
     width: 75px;
+   padding-top: 10px;
 }
 a:link{
     text-decoration: none;
