@@ -98,9 +98,7 @@
 
 /* INFO-start */
 .infocont{
-    width: 100%;
-    display: flexbox;
-    padding: 30px;
+    margin: 40px;
 }
 .herinfo{
     
@@ -153,12 +151,8 @@
     font-size: 20px;
     line-height: 190%;
     box-shadow: 0px 17px 40px 0px  rgb(210, 211, 210);
-    max-width: calc(90% - 1em);
-    
 }
-.sylabusContent > h3{
-    padding-bottom: 20px;
-}
+
 .syllabcont{
     font-size: 30px;
     font-weight: 500;
