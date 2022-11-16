@@ -1,10 +1,15 @@
 /* base */
 @import '../base/base.css';
 @import '../base/layout.css';
+
+@import '../base/header.css';
+
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&display=swap');
+
 /* 3rd-party */
 /* components */
+@import '../components/socials.css';
 
 /* CUSTOM STYLE GOES BELOW THIS COMMENT LINE */
 
@@ -14,6 +19,11 @@
 /* HERO-start */
 .hero {
     padding-top: 230px;
+    width: 100%;
+}
+.hero > .row {
+    display: flex;
+    align-items: center;
 }
 .left-hero {
     display: flex;
@@ -31,12 +41,15 @@
 }
 .title {
     font-size: 60px;
+    line-height: 90px;
+    padding-top: 0px;
     font-weight: 600;
     font-family: 'Hind', sans-serif;
     color: var(--titles-color);
 }
 .under-title {
     font-weight: 400px;
+    margin-bottom: 10px;
     color: var(--under-titles-color);
 }
 .don {
@@ -46,6 +59,7 @@
 .description {
     font-weight: 300;
     color: var(--description-color);
+    margin-bottom: 35px;
 }
 .video-image {
     position: relative;
@@ -57,7 +71,7 @@
 }
 .right-video-bg-img {
     position: absolute;
-    right: 0px;
+    right: -70px;
     bottom: -70px;
 }
 .video-pic {
@@ -74,13 +88,12 @@
     cursor: pointer;
     color: red;
 }
-.financial-aid-link {
+.hero > .row > .col-12 > .left-hero > .financial-aid-link {
     color: var(--titles-color);
-    text-decoration: underline;
     font-size: 18px;
-    font-weight: 800px;
+    font-weight: 600px;
     font-family: 'Hind', sans-serif;
-    color: var(--titles-color);
+    text-decoration: underline;
     padding-left: 35px;
 }
 
@@ -142,7 +155,9 @@
     width: 70px;
     height: 70px;
 }
-.container > .syllabus{
+
+.container > .syllabus {
+
     padding: calc(5% - 1em);
     font-family: 'Ubuntu', sans-serif;
     font-weight: lighter;
@@ -150,43 +165,46 @@
     border-radius: 15px;
     font-size: 20px;
     line-height: 190%;
-    box-shadow: 0px 17px 40px 0px  rgb(210, 211, 210);
+    box-shadow: 0px 17px 40px 0px rgb(210, 211, 210);
 }
 
 .syllabcont{
     font-size: 30px;
     font-weight: 500;
     max-width: 900px;
+
 }
-.syllabstime > span{
+.syllabstime > span {
     display: inline-block;
     font-size: 17px;
-    font-weight:500;
-    margin-right:5%;
+    font-weight: 500;
+    margin-right: 5%;
     padding-top: 20px;
 }
 
-.container > h3{
+.container > h3 {
     font-family: 'Hind', sans-serif;
     font-size: 30px;
 }
 
-.week_syllabus{
+.week_syllabus {
     font-family: 'Ubuntu', sans-serif;
     text-align: center;
     line-height: 190%;
     padding-block: 40px 0px;
-
 }
+
 .playlist{
     position:relative;
     display: flex;
+
     font-family: 'Ubuntu', sans-serif;
     font-size: 16px;
     line-height: 20px;
     padding: 10px;
     justify-content: space-between;
 }
+
 .playoption{
     gap: 40px;
     display: flex;
@@ -196,6 +214,7 @@
 .play{
     padding-right: 25px;
     justify-content:center;
+
 }
 .preview {
     font-weight: 500;
@@ -203,16 +222,15 @@
     width: 75px;
    padding-top: 10px;
 }
-a:link{
+a:link {
     text-decoration: none;
 }
-hr.new5{
+hr.new5 {
     border: 1px solid;
     padding-left: 200px;
     margin-block: 30px;
     color: rgba(119, 119, 119, 0.171);
 }
-
 
 /* Course-end */
 
@@ -238,4 +256,76 @@ hr.new5{
 /* Instructor-end */
 
 /* FOOTER-start */
+footer > .row > .col-12 {
+    height: 240px;
+}
+h3 {
+    color: var(--titles-color);
+    font-family: 'Hind', sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 26px;
+    margin-bottom: 25px;
+}
+.footer-description {
+    color: var(--under-titles-color);
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 28px;
+    margin-top: 25px;
+    font-weight: 300;
+}
+footer > .row > .col-12 > a {
+    color: var(--under-titles-color);
+    font-size: 16px;
+    line-height: 28px;
+    text-decoration: none;
+    font-weight: 300;
+    transition: 0.3s;
+}
+footer > .row > .col-12 > a:hover {
+    color: var(--dark-green-color);
+}
+.newsletter-description {
+    color: var(--under-titles-color);
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+.newsletter-form {
+    border: none;
+    border-radius: 50px;
+    font-size: 18px;
+    height: 60px;
+    line-height: 1em;
+    padding: 1.3em;
+}
+::placeholder {
+    color: #ffffff;
+    font-weight: 300;
+}
+input[type='email'] {
+    color: #ffffff;
+    outline: 0;
+    font-weight: 300;
+}
+.newsletter-email {
+    background-color: var(--dark-green-color);
+    cursor: text;
+    width: 100%;
+    margin-right: -112px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.subscribe {
+    background-color: var(--yellow-color);
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-block;
+    position: absolute;
+}
+.subscribe:hover {
+    color: var(--titles-color);
+}
 /* FOOTER-end */
