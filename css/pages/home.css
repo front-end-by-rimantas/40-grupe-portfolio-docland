@@ -97,6 +97,26 @@
 /* HERO-end */
 
 /* INFO-start */
+.infocont{
+    width: 100%;
+    display: flexbox;
+    padding: 30px;
+}
+.herinfo{
+    
+    font-family: 'Ubuntu', sans-serif;
+    padding-top: 50px;
+    font-weight: 300;
+    text-align:center;
+  
+
+}
+.herinfo > h3{
+    font-size: 28px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+  
+}
 /* INFO-ME-end */
 
 /* Clock-start */
@@ -168,7 +188,7 @@
     position:relative;
     display: flex;
     font-family: 'Ubuntu', sans-serif;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 20px;
     padding: 10px;
     justify-content: space-between;
