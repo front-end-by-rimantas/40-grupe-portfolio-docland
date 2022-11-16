@@ -41,7 +41,6 @@ body * {
     box-sizing: border-box;
     text-decoration: none;
     font-size: 20px;
-    background-color: var(--background-color);
     font-family: 'Ubuntu', sans-serif;
     line-height: 1.78;
 

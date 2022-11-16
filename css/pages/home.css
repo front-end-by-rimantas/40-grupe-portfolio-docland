@@ -110,13 +110,54 @@
 /* HERO-end */
 
 /* INFO-start */
+.infocont{
+    margin: 40px;
+}
+.herinfo{
+    
+    font-family: 'Ubuntu', sans-serif;
+    padding-top: 50px;
+    font-weight: 300;
+    text-align:center;
+  
+
+}
+.herinfo > h3{
+    font-size: 28px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+  
+}
 /* INFO-ME-end */
 
 /* Clock-start */
 /* Clock-end */
 
 /* Course-start */
+.syllCours{
+    font-size: 40px;
+    
+}
+.btn-syllabsDownload{
+    float: right;
+   margin-top: 15px
+
+}
+.syllabus{
+    position:sticky;
+    padding: 230px;
+
+}
+.play-to-top {
+    float: right;
+    font-size: 20px;
+    text-decoration: none;
+    width: 70px;
+    height: 70px;
+}
+
 .container > .syllabus {
+
     padding: calc(5% - 1em);
     font-family: 'Ubuntu', sans-serif;
     font-weight: lighter;
@@ -126,8 +167,12 @@
     line-height: 190%;
     box-shadow: 0px 17px 40px 0px rgb(210, 211, 210);
 }
-.sylabusContent > h3 {
-    padding-bottom: 20px;
+
+.syllabcont{
+    font-size: 30px;
+    font-weight: 500;
+    max-width: 900px;
+
 }
 .syllabstime > span {
     display: inline-block;
@@ -148,24 +193,34 @@
     line-height: 190%;
     padding-block: 40px 0px;
 }
-.playlist {
-    display: inline-block;
-    font-family: 'Ubuntu', sans-serif;
-    font-size: 18px;
-    display: inline;
-    line-height: 20px;
-    padding: 18px;
-}
-.playotion {
-    padding-left: 40px;
+
+.playlist{
+    position:relative;
     display: flex;
-    justify-content: center;
+
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    padding: 10px;
+    justify-content: space-between;
 }
-.play {
-    justify-content: center;
+
+.playoption{
+    gap: 40px;
+    display: flex;
+
+  
+}
+.play{
+    padding-right: 25px;
+    justify-content:center;
+
 }
 .preview {
     font-weight: 500;
+    text-align: center;
+    width: 75px;
+   padding-top: 10px;
 }
 a:link {
     text-decoration: none;
@@ -173,6 +228,7 @@ a:link {
 hr.new5 {
     border: 1px solid;
     padding-left: 200px;
+    margin-block: 30px;
     color: rgba(119, 119, 119, 0.171);
 }
 
