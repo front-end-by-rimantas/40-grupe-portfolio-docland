@@ -289,22 +289,7 @@ hr.new5 {
     font-weight: 300;
     line-height: 36px;
 }
-@media (max-width: 767.9px) {
-    .sr-col-scnd {
-        display: none;
-    }
-    .sr-col {
-        width: 100%;
-    }
-}
-@media (max-width: 991.9px) {
-    .sr-container > .row > .col-12 > h2 {
-        width: 100%;
-    }
-    .sr-buttons {
-        display: none;
-    }
-}
+
 .sr-numb-string {
     padding: 30px 0;
 }
@@ -322,6 +307,23 @@ hr.new5 {
 }
 .sr-btn {
     text-align: center;
+}
+
+@media (max-width: 767.9px) {
+    .sr-col-scnd {
+        display: none;
+    }
+    .sr-col {
+        width: 100%;
+    }
+}
+@media (max-width: 991.9px) {
+    .sr-container > .row > .col-12 > h2 {
+        width: 100%;
+    }
+    .sr-buttons {
+        display: none;
+    }
 }
 /* Reviews-end */
 
