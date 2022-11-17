@@ -232,6 +232,21 @@ hr.new5 {
 /* Pricing-end */
 
 /* Reviews-start */
+.sr-container > .row > .col-12 > h2 {
+    color: var(--titles-color);
+    float: left;
+    font-size: 40px;
+    margin-bottom: 30px;
+    width: 50%;
+}
+.sr-buttons {
+    float: right;
+    width: 50%;
+}
+.sr-arrow {
+    float: right;
+    margin-left: 15px;
+}
 .sr-rw {
     display: flex;
     flex-wrap: wrap;
@@ -241,12 +256,24 @@ hr.new5 {
 .sr-col {
     background-color: #ffffff;
     border-radius: 20px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 6%);
     padding: 50px;
     width: calc(50% - 15px);
 }
 .sr-img-stars {
     display: flex;
     flex-wrap: wrap;
+    padding-bottom: 20px;
+}
+.sr-img {
+    padding-right: 20px;
+}
+.sr-rw-stars {
+    margin: auto;
+    margin-left: 0;
+}
+.sr-star {
+    font-size: 16px;
 }
 .rs-name {
     color: var(--reviewers-name-color);
