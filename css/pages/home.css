@@ -305,6 +305,24 @@ hr.new5 {
         display: none;
     }
 }
+.sr-numb-string {
+    padding-bottom: 30px;
+}
+.sr-strong {
+    color: var(--yellow-color);
+    font-size: 60px;
+    line-height: 90px;
+    font-weight: 600;
+}
+.sr-strong-scnd {
+    color: var(--dark-green-color);
+}
+.sr-ratings {
+    color: var(--description-color);
+}
+.sr-btn {
+    text-align: center;
+}
 /* Reviews-end */
 
 /* Raitings-start */
