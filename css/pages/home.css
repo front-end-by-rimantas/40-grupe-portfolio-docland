@@ -253,7 +253,8 @@ hr.new5 {
     justify-content: space-between;
     width: 100%;
 }
-.sr-col {
+.sr-col,
+.sr-col-scnd {
     background-color: #ffffff;
     border-radius: 20px;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 6%);
@@ -287,6 +288,22 @@ hr.new5 {
     font-size: 20px;
     font-weight: 300;
     line-height: 36px;
+}
+@media (max-width: 767.9px) {
+    .sr-col-scnd {
+        display: none;
+    }
+    .sr-col {
+        width: 100%;
+    }
+}
+@media (max-width: 991.9px) {
+    .sr-container > .row > .col-12 > h2 {
+        width: 100%;
+    }
+    .sr-buttons {
+        display: none;
+    }
 }
 /* Reviews-end */
 
