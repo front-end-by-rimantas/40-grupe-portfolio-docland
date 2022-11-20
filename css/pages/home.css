@@ -18,7 +18,7 @@
 
 /* HERO-start */
 .hero {
-    padding-top: 230px;
+    padding-top: 130px;
     width: 100%;
 }
 .hero > .row {
@@ -96,13 +96,30 @@
     text-decoration: underline;
     padding-left: 35px;
 }
-
+@media (max-width: 1119px) {
+    .hero {
+        padding-top: 80px;
+    }
+}
 @media (max-width: 991px) {
+    .hero {
+        padding-top: 30px;
+    }
     .left-video-bg-img {
         display: none;
     }
     .right-video-bg-img {
         display: none;
+    }
+    .hero > .row {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+}
+@media (max-width: 767px) {
+    .hero {
+        padding-top: 0px;
     }
 }
 /* HERO-end */
