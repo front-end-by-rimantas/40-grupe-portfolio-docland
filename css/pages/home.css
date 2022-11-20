@@ -97,12 +97,10 @@
     padding-left: 35px;
 }
 
-@media (max-width: 991.9px) {
+@media (max-width: 991px) {
     .left-video-bg-img {
         display: none;
     }
-}
-@media (max-width: 991.9px) {
     .right-video-bg-img {
         display: none;
     }
@@ -110,23 +108,19 @@
 /* HERO-end */
 
 /* INFO-start */
-.infocont{
+.infocont {
     margin: 40px;
 }
-.herinfo{
-    
+.info-about-us {
     font-family: 'Ubuntu', sans-serif;
     padding-top: 50px;
     font-weight: 300;
-    text-align:center;
-  
-
+    text-align: center;
 }
-.herinfo > h3{
+.heading-2 {
     font-size: 28px;
     font-family: 'Ubuntu', sans-serif;
     font-weight: 500;
-  
 }
 /* INFO-ME-end */
 
@@ -134,19 +128,16 @@
 /* Clock-end */
 
 /* Course-start */
-.syllCours{
+.syllCours {
     font-size: 40px;
-    
 }
-.btn-syllabsDownload{
+.btn-syllabsDownload {
     float: right;
-   margin-top: 15px
-
+    margin-top: 15px;
 }
-.syllabus{
-    position:sticky;
+.syllabus {
+    position: sticky;
     padding: 230px;
-
 }
 .play-to-top {
     float: right;
@@ -157,7 +148,6 @@
 }
 
 .container > .syllabus {
-
     padding: calc(5% - 1em);
     font-family: 'Ubuntu', sans-serif;
     font-weight: lighter;
@@ -168,11 +158,10 @@
     box-shadow: 0px 17px 40px 0px rgb(210, 211, 210);
 }
 
-.syllabcont{
+.syllabcont {
     font-size: 30px;
     font-weight: 500;
     max-width: 900px;
-
 }
 .syllabstime > span {
     display: inline-block;
@@ -194,8 +183,8 @@
     padding-block: 40px 0px;
 }
 
-.playlist{
-    position:relative;
+.playlist {
+    position: relative;
     display: flex;
 
     font-family: 'Ubuntu', sans-serif;
@@ -205,22 +194,19 @@
     justify-content: space-between;
 }
 
-.playoption{
+.playoption {
     gap: 40px;
     display: flex;
-
-  
 }
-.play{
+.play {
     padding-right: 25px;
-    justify-content:center;
-
+    justify-content: center;
 }
 .preview {
     font-weight: 500;
     text-align: center;
     width: 75px;
-   padding-top: 10px;
+    padding-top: 10px;
 }
 a:link {
     text-decoration: none;
@@ -244,9 +230,111 @@ hr.new5 {
 /* Pricing-end */
 
 /* Reviews-start */
+.section-title {
+    color: var(--titles-color);
+    float: left;
+    font-size: 40px;
+    margin-bottom: 30px;
+    width: 50%;
+}
+.reviews-buttons {
+    float: right;
+    width: 50%;
+}
+.reviews-arrow {
+    float: right;
+    margin-left: 15px;
+}
+.comments {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+}
+.reviewers-comment-box {
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 6%);
+    padding: 50px;
+    width: calc(50% - 15px);
+}
+.reviewers-info {
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 20px;
+}
+.reviewers-picture {
+    padding-right: 20px;
+}
+.review-stars-and-name {
+    margin: auto;
+    margin-left: 0;
+}
+.review-star-size {
+    font-size: 16px;
+}
+.reviewers-name {
+    color: var(--reviewers-name-color);
+    font-family: 'Hind', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 18px;
+}
+.reviewers-comment {
+    color: var(--under-titles-color);
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 36px;
+}
+.ratings {
+    display: flex;
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ratings-numbers-info {
+    padding: 30px 0;
+    width: 250px;
+    text-align: center;
+}
+.ratings-number {
+    color: var(--yellow-color);
+    font-size: 60px;
+    line-height: 90px;
+    font-weight: 600;
+}
+.ratings-number-scnd {
+    color: var(--dark-green-color);
+}
+.ratings-info {
+    color: var(--description-color);
+    text-align: center;
+}
+.view-all-reviews-btn-layout {
+    text-align: center;
+}
+
+@media (max-width: 767px) {
+    .reviewers-comment-box-scnd {
+        display: none;
+    }
+    .reviewers-comment-box {
+        width: 100%;
+    }
+}
+@media (max-width: 991px) {
+    .section-title {
+        width: 100%;
+    }
+    .reviews-buttons {
+        display: none;
+    }
+}
 /* Reviews-end */
 
 /* Raitings-start */
+/* DONE IN REVIEWS SECTION */
 /* Raitings-end */
 
 /* Email-start */

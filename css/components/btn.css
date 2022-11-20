@@ -23,8 +23,16 @@
     background-color: var(--dark-green-color);
 }
 .btn-arrow {
+    align-items: center;
     background-color: var(--light-green-color);
     color: var(--dark-green-color);
+    display: flex;
+    font-size: 30px;
+    height: 50px;
+    justify-content: center;
+    line-height: 30px;
+    padding: 0;
+    width: 50px;
 }
 .btn-arrow:hover {
     background-color: var(--dark-green-color);
