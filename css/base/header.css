@@ -5,6 +5,7 @@
 
 .head {
     display: flex;
+    justify-content: space-between;
 }
 
 .logo {
@@ -14,24 +15,47 @@
     width: 80%;
     text-align: right;
     font-size: 22px;
-    font-weight: 600;
-    padding-top: 41px;
+    font-weight: 500;
+    padding-top: 40px;
 }
 
 .navItem {
   color: var(--menu-grey-color);
-  margin-left: 37px;
+  margin-left: 16px;
+}
+.navItem:hover {
+    color: var(--dark-green-color);
+    transition: all 0.3s linear;
 }
 .navHome {
     color: var(--dark-green-color);
 }
 .navLogin {
-    text-decoration: underline;
     font-size: 17px;
     color: var(--yellow-color);
-    margin: 0 30px;
+    text-decoration: underline;
+    margin-left: 16px;
 }
 .navBar > .btn {
-    padding: 13px 33px 13px 33px;
+    padding: 10px 34px 10px 34px;
     font-weight: 600;
+    margin-top: -10px;
+}
+.navBar > .btn:hover {
+    color: var(--background-color);
+}
+@media (max-width: 992px) {
+    .hid {
+        display: none !important;
+    }
+}
+@media (min-width: 992px) {
+    .hide {
+        display: none;
+    }
+}
+.bars {
+    font-size: 27px;
+    margin-top: 40px;
+    color: var(--menu-grey-color);
 }
