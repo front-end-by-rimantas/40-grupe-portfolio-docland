@@ -239,99 +239,97 @@ hr.new5 {
     margin-bottom: 30px;
     width: 50%;
 }
-.sr-buttons {
+.reviews-buttons {
     float: right;
     width: 50%;
 }
-.sr-arrow {
+.reviews-arrow {
     float: right;
     margin-left: 15px;
 }
-.sr-rw {
+.comments {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     width: 100%;
 }
-.sr-col {
+.reviewers-comment-box {
     background-color: #ffffff;
     border-radius: 20px;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 6%);
     padding: 50px;
     width: calc(50% - 15px);
 }
-.sr-img-stars {
+.reviewers-info {
     display: flex;
     flex-wrap: wrap;
     padding-bottom: 20px;
 }
-.sr-img {
+.reviewers-picture {
     padding-right: 20px;
 }
-.sr-rw-stars {
+.review-stars-and-name {
     margin: auto;
     margin-left: 0;
 }
-.sr-star {
+.review-star-size {
     font-size: 16px;
 }
-.rs-name {
+.reviewers-name {
     color: var(--reviewers-name-color);
     font-family: 'Hind', sans-serif;
     font-size: 18px;
     font-weight: 600;
     line-height: 18px;
 }
-.rs-comment {
+.reviewers-comment {
     color: var(--under-titles-color);
     font-size: 20px;
     font-weight: 300;
     line-height: 36px;
 }
-.sr-container > .row > .col-12 {
+.ratings {
+    display: flex;
+    flex-wrap: wrap;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.sr-rating {
-    display: flex;
-    flex-wrap: wrap;
-}
-.sr-numb-string {
+.ratings-numbers-info {
     padding: 30px 0;
     width: 250px;
     text-align: center;
 }
-.sr-strong {
+.ratings-number {
     color: var(--yellow-color);
     font-size: 60px;
     line-height: 90px;
     font-weight: 600;
 }
-.sr-strong-scnd {
+.ratings-number-scnd {
     color: var(--dark-green-color);
 }
-.sr-ratings {
+.ratings-info {
     color: var(--description-color);
     text-align: center;
 }
-.sr-btn {
+.view-all-reviews-btn-layout {
     text-align: center;
 }
 
 @media (max-width: 767px) {
-    .sr-col-scnd {
+    .reviewers-comment-box-scnd {
         display: none;
     }
-    .sr-col {
+    .reviewers-comment-box {
         width: 100%;
     }
 }
 @media (max-width: 991px) {
-    .sr-container > .row > .col-12 > h2 {
+    .section-title {
         width: 100%;
     }
-    .sr-buttons {
+    .reviews-buttons {
         display: none;
     }
 }
