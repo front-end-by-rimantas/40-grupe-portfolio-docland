@@ -253,8 +253,7 @@ hr.new5 {
     justify-content: space-between;
     width: 100%;
 }
-.sr-col,
-.sr-col-scnd {
+.sr-col {
     background-color: #ffffff;
     border-radius: 20px;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 6%);
@@ -289,9 +288,19 @@ hr.new5 {
     font-weight: 300;
     line-height: 36px;
 }
-
+.sr-container > .row > .col-12 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sr-rating {
+    display: flex;
+    flex-wrap: wrap;
+}
 .sr-numb-string {
     padding: 30px 0;
+    width: 250px;
+    text-align: center;
 }
 .sr-strong {
     color: var(--yellow-color);
@@ -304,6 +313,7 @@ hr.new5 {
 }
 .sr-ratings {
     color: var(--description-color);
+    text-align: center;
 }
 .sr-btn {
     text-align: center;
@@ -328,7 +338,7 @@ hr.new5 {
 /* Reviews-end */
 
 /* Raitings-start */
-/* JAU PADARYTA REVIEW SEKCIJOJE */
+/* DONE IN REVIEWS SECTION */
 /* Raitings-end */
 
 /* Email-start */
