@@ -253,8 +253,106 @@ hr.new5 {
 /* Email-end */
 
 /* Instructor-start */
+.instructor {
+    display: block;
+    padding: calc(5% - 1em);
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: lighter;
+    font-size: 20px;
+    line-height: 190%;
+}
+.instructor:first-child {
+    margin-left: 0;
+    float: left;
+}
+.instructor:last-child {
+    float: right;
+}
+.instructor > .box {
+    display: block;
+    padding: calc(5% - 1em);
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: lighter;
+    background-color: white;
+    border-radius: 15px;
+    font-size: 20px;
+    line-height: 190%;
+    box-shadow: 0px 17px 40px 0px rgb(210, 211, 210);
+}
+.instr-info {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    background-color: #fff;
+}
+.instr-info > ul li:nth-child(1) {
+    list-style-image: url('../../img/award-icon.png');
+}
+.instr-info > ul li:nth-child(2) {
+    list-style-image: url('../../img/student-icon.png');
+}
+.instr-info > ul li:nth-child(3) {
+    list-style-image: url('../../img/board-icon.png');
+}
+.instr-info > ul > li {
+    font-size: 16px;
+}
+.instr-top {
+    display: flex;
+    vertical-align: middle;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+}
+.instructor > .instr-name {
+    font-weight: bold;
+    font-size: 26px;
+    background-color: white;
+}
+.instructor > .box > .description {
+    display: block;
+    margin: 1em;
+    background-color: #fff;
+}
+@media (max-width: 1200px) {
+    .instr-top {
+        flex-direction: column;
+    }
+}
+@media (max-width: 992px) {
+    .instr-top {
+        flex-direction: column;
+    }
+    .instructor > .box {
+        width: 80%;
+        margin: 10%;
+    }
+    .instructor:first-child {
+        float: none;
+    }
+    .instructor:last-child {
+        float: none;
+    }
+}
+@media (max-width: 557px) {
+    .instr-top {
+        flex-direction: column;
+    }
+    .instructor > .box {
+        width: 80%;
+        margin: 0;
+    }
+    .instructor:first-child {
+        float: none;
+    }
+    .instructor:last-child {
+        float: none;
+    }
+}
 /* Instructor-end */
-
 /* FOOTER-start */
 footer > .row > .col-12 {
     height: 240px;
