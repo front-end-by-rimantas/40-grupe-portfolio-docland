@@ -232,7 +232,7 @@ hr.new5 {
 /* Pricing-end */
 
 /* Reviews-start */
-.sr-container > .row > .col-12 > h2 {
+.section-title {
     color: var(--titles-color);
     float: left;
     font-size: 40px;
