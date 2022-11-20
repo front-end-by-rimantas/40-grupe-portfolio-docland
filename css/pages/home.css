@@ -101,8 +101,6 @@
     .left-video-bg-img {
         display: none;
     }
-}
-@media (max-width: 991px) {
     .right-video-bg-img {
         display: none;
     }
