@@ -97,12 +97,12 @@
     padding-left: 35px;
 }
 
-@media (max-width: 991.9px) {
+@media (max-width: 991px) {
     .left-video-bg-img {
         display: none;
     }
 }
-@media (max-width: 991.9px) {
+@media (max-width: 991px) {
     .right-video-bg-img {
         display: none;
     }
@@ -113,13 +113,13 @@
 .infocont {
     margin: 40px;
 }
-.herinfo {
+.info-about-us {
     font-family: 'Ubuntu', sans-serif;
     padding-top: 50px;
     font-weight: 300;
     text-align: center;
 }
-.herinfo > h3 {
+.heading-2 {
     font-size: 28px;
     font-family: 'Ubuntu', sans-serif;
     font-weight: 500;
@@ -319,7 +319,7 @@ hr.new5 {
     text-align: center;
 }
 
-@media (max-width: 767.9px) {
+@media (max-width: 767px) {
     .sr-col-scnd {
         display: none;
     }
@@ -327,7 +327,7 @@ hr.new5 {
         width: 100%;
     }
 }
-@media (max-width: 991.9px) {
+@media (max-width: 991px) {
     .sr-container > .row > .col-12 > h2 {
         width: 100%;
     }
