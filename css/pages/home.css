@@ -20,11 +20,19 @@
 .hero {
     padding-top: 130px;
     width: 100%;
+    overflow: hidden;
 }
 .hero > .row {
     display: flex;
     align-items: center;
 }
+.left-hero-animation {
+    animation-name: hero-from-left;
+    animation-direction: normal;
+    animation-duration: 1.5s;
+    position: relative;
+}
+
 .left-hero {
     display: flex;
     justify-content: left;
@@ -63,17 +71,29 @@
 }
 .video-image {
     position: relative;
+    animation-name: image-from-right;
+    animation-direction: normal;
+    animation-duration: 1.5s;
 }
+
 .left-video-bg-img {
     position: absolute;
     left: -80px;
     top: -60px;
+    animation-duration: 1.5s;
+    animation-delay: 0s;
+    animation-name: image-from-left-corner;
 }
+
 .right-video-bg-img {
     position: absolute;
     right: -70px;
     bottom: -70px;
+    animation-duration: 1.5s;
+    animation-delay: 0s;
+    animation-name: image-from-right-corner;
 }
+
 .video-pic {
     position: relative;
     max-width: 100%;
@@ -93,8 +113,82 @@
     font-size: 18px;
     font-weight: 600px;
     font-family: 'Hind', sans-serif;
-    text-decoration: underline;
     padding-left: 35px;
+    display: inline-block;
+    position: relative;
+}
+.hero > .row > .col-12 > .left-hero > .financial-aid-link::after {
+    content: '';
+    position: absolute;
+    width: calc(100% - 35px);
+    right: 0;
+    transform: scaleX(1);
+    height: 1px;
+    bottom: 0;
+    background-color: var(--titles-color);
+    background-repeat: inherit;
+    transform-origin: bottom right;
+    transition: transform 0.3s ease-out;
+}
+.hero > .row > .col-12 > .left-hero > .financial-aid-link:hover::after {
+    transform: scaleX(0);
+    transform-origin: bottom left;
+}
+@keyframes hero-from-left {
+    0% {
+        left: -300px;
+        opacity: 0;
+    }
+    50% {
+        opacity: 0.5;
+    }
+    100% {
+        left: 0;
+        opacity: 1;
+    }
+}
+@keyframes image-from-right {
+    0% {
+        right: -300px;
+        opacity: 0;
+    }
+    50% {
+        opacity: 0.5;
+    }
+    100% {
+        right: 0;
+        opacity: 1;
+    }
+}
+@keyframes image-from-left-corner {
+    0% {
+        left: 0px;
+        top: 0px;
+        opacity: 0;
+    }
+    33% {
+        left: 0px;
+        top: 0px;
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes image-from-right-corner {
+    0% {
+        right: 0px;
+        bottom: 0px;
+        opacity: 0;
+    }
+    33% {
+        right: 0px;
+        bottom: 0px;
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 @media (max-width: 1119px) {
     .hero {
