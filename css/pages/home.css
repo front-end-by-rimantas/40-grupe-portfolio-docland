@@ -119,14 +119,14 @@
 }
 .financial-aid-link:after {
     content: '';
-    width: 100%;
+    width: 0%;
     height: 1px;
     display: block;
     background: var(--titles-color);
     transition: 0.3s;
 }
 .financial-aid-link:hover:after {
-    width: 0%;
+    width: 100%;
 }
 @media (max-width: 1119px) {
     .hero {
