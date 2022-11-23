@@ -10,6 +10,7 @@
 /* 3rd-party */
 /* components */
 @import '../components/socials.css';
+@import '../components/hero-animation.css';
 
 /* CUSTOM STYLE GOES BELOW THIS COMMENT LINE */
 
@@ -18,13 +19,21 @@
 
 /* HERO-start */
 .hero {
-    padding-top: 230px;
+    padding-top: 130px;
     width: 100%;
+    overflow: hidden;
 }
 .hero > .row {
     display: flex;
     align-items: center;
 }
+.left-hero-animation {
+    animation-name: hero-from-left;
+    animation-direction: normal;
+    animation-duration: 1.5s;
+    position: relative;
+}
+
 .left-hero {
     display: flex;
     justify-content: left;
@@ -63,17 +72,29 @@
 }
 .video-image {
     position: relative;
+    animation-name: image-from-right;
+    animation-direction: normal;
+    animation-duration: 1.5s;
 }
+
 .left-video-bg-img {
     position: absolute;
     left: -80px;
     top: -60px;
+    animation-duration: 1.5s;
+    animation-delay: 0s;
+    animation-name: image-from-left-corner;
 }
+
 .right-video-bg-img {
     position: absolute;
     right: -70px;
     bottom: -70px;
+    animation-duration: 1.5s;
+    animation-delay: 0s;
+    animation-name: image-from-right-corner;
 }
+
 .video-pic {
     position: relative;
     max-width: 100%;
@@ -93,16 +114,44 @@
     font-size: 18px;
     font-weight: 600px;
     font-family: 'Hind', sans-serif;
-    text-decoration: underline;
-    padding-left: 35px;
+    margin-left: 35px;
+    display: inline-block;
 }
-
+.financial-aid-link:after {
+    content: '';
+    width: 0%;
+    height: 1px;
+    display: block;
+    background: var(--titles-color);
+    transition: 0.3s;
+}
+.financial-aid-link:hover:after {
+    width: 100%;
+}
+@media (max-width: 1119px) {
+    .hero {
+        padding-top: 80px;
+    }
+}
 @media (max-width: 991px) {
+    .hero {
+        padding-top: 30px;
+    }
     .left-video-bg-img {
         display: none;
     }
     .right-video-bg-img {
         display: none;
+    }
+    .hero > .row {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+}
+@media (max-width: 767px) {
+    .hero {
+        padding-top: 0px;
     }
 }
 /* HERO-end */
