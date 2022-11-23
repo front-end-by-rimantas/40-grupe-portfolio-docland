@@ -224,6 +224,93 @@ hr.new5 {
 /* Syllabus-end */
 
 /* Benefits-start */
+.benefits {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.benefits-box {
+    background-color: #ffffff;
+    border-radius: 20px;
+    width: 100%;
+    display: flex;
+    width: 300px;
+}
+.benefits-icon-layout {
+    height: 100%;
+    width: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+}
+.benefits-icons-bg-color-1 {
+    background-color: var(--light-green-background-color);
+}
+.benefits-icons-bg-color-2 {
+    background-color: var(--light-blue-color);
+}
+.benefits-icons-bg-color-3 {
+    background-color: var(--light-purple-color);
+}
+.benefits-icons-bg-color-4 {
+    background-color: var(--light-yellow-color);
+}
+.benefits-icons {
+    height: 40px;
+}
+.benefits-description {
+    width: calc(100% - 70px);
+    padding: 20px 15px;
+}
+.benefits-title {
+    font-size: 24px;
+    line-height: 24px;
+    font-weight: 500;
+    color: var(--titles-color);
+    font-family: 'Hind', sans-serif;
+    padding-bottom: 5px;
+    margin: 0;
+}
+.benefits-paragraph {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28px;
+    color: var(--under-titles-color);
+}
+@media (max-width: 1399px) {
+    .benefits-box {
+        width: 350px;
+    }
+    .benefits-box-4 {
+        display: none;
+    }
+}
+@media (max-width: 1199px) {
+    .benefits-box {
+        width: 440px;
+    }
+    .benefits-box-3 {
+        display: none;
+    }
+}
+@media (max-width: 991px) {
+    .benefits-box {
+        width: 330px;
+    }
+    .benefits-box-3 {
+        display: none;
+    }
+}
+@media (max-width: 767px) {
+    .benefits-box {
+        width: 100%;
+    }
+    .benefits-box-2 {
+        display: none;
+    }
+}
 /* Benefits-end */
 
 /* Pricing-start */
