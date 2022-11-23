@@ -464,13 +464,13 @@ hr.new5 {
     background-color: #fff;
 }
 .instr-info > ul li:nth-child(1) {
-    list-style-image: url('../../img/award-icon.png');
+    list-style-image: url('../../img/instructor/award-icon.png');
 }
 .instr-info > ul li:nth-child(2) {
-    list-style-image: url('../../img/student-icon.png');
+    list-style-image: url('../../img/instructor/student-icon.png');
 }
 .instr-info > ul li:nth-child(3) {
-    list-style-image: url('../../img/board-icon.png');
+    list-style-image: url('../../img/instructor/board-icon.png');
 }
 .instr-info > ul > li {
     font-size: 16px;
